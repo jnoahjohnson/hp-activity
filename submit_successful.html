@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Activity Submitted</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900" rel="stylesheet">
+		<link rel='stylesheet' href='/css/main.css'>
+		<link rel='stylesheet' href='/css/normalize.min.css'>
+        <style>
+            body {
+                padding-top: 0px;
+                padding-bottom: 20px;
+            }
+        </style>
+		<link rel='stylesheet' href='css/bootstrap-theme.css'>
+		<link rel='stylesheet' href='css/bootstrap.min.css'>
+		<script src='js/vendor/modernizr-2.6.2.min.js'></script>
+		<script src='js/main.js'></script>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135207892-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-135207892-1');
+		</script>
+
+    </head>
+    
+    
+    
+    <body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+	
+		
+		
+
+		
+	
+	    <!-- Main jumbotron for a primary marketing message or call to action -->
+	    <div class="jumbotron main-banner" id="scores" style="margin-bottom: 0px !important">
+	      <div class="container centerText">
+		    
+		    <h2>Thank you for participating in</h2>
+	       
+		  	<a href="index.php"><img src="../images/Logo.png" class="hogwartsHead"></a>
+		  	<div class="navbar">
+			     <ul class="nav navbar-nav usernav">
+			       <li><a href="index.php">Go Back to the Homepage</a></li>
+			       <li><a href="#submit">Submit Another Activity</a></li>
+			       <li><a href="#ideas">Check out New Activities To Try</a></li>
+			     </ul>
+		  	</div>
+	        
+		</div>
+	    </div>
+		
+		<div class="container centerText submitForm" style="height: auto">
+			<h1 class="centerText" id="submit">Submit an Activity</h1>
+			<p class ="centerText infoText">Here you can submit any activity that you have done. Please be honest and only submit once. <br>
+				<strong>Make sure to submit your full name or points will not be counted</strong> <br>
+				If you have any problems submitting,<br>
+				Text (801)318-7725 or Email jnoahjohnson@gmail.com <br>
+			</p>
+			<form enctype="multipart/form-data"
+			action="add.php" method="POST" class="centerText" onsubmit="return confirm('Are you sure you want to submit?');"> 
+			<p class="formText">What is your full name?:</h1><br>
+			<input type="text" name="name"><br> 
+			<p class="formText">What activity did you do?:</h1> <br>
+			<input type="text" name="activity"><br>
+			<p class="formText">Upload any photo that you took:</h1> <br>
+			<input type="file" name="photo" multiple="" class="hidden" id="fileUpload" onchange="photosUploaded()"> <label for="fileUpload" class="uploadPhotosButton btn" id="photoUpload">Click Here to Upload Photos</label><br>
+			<input type="submit" class="btn" value="Submit">   </form>
+
+			
+		</div>
+		
+		
+	   
+		<div class="container ideasBox" style="height: auto !important">
+			<h1 class="centerText" id="ideas">List of Ideas</h1>
+			<p class="centerText">Below are the many ways that you can earn points.</p>
+			
+			
+			<div class="col-md-12">
+				<h2>Ten Points</h2>
+				<ul>
+					<li>Attendance</li>
+					<li class="tab">Fhe</li>
+					<li class="tab">Institute</li>
+					<li class="tab">Ward activities</li>
+					<li class="tab">Stake activities</li>
+					<li>Come Follow Me Study (once a week)</li>
+					<li>Conference Talk (once a week)</li>
+					<li>Contact your parents/grandparents (once a week)</li>
+					<li>Share a scripture with a friend (once a week)</li>
+					<li class="pictureList">Go to the gym/exercise for at least 30 minutes (daily)</li>
+					<li>Write in your journal every day for a week (once)</li>
+					<li>Every food item you bring for the food drive. <strong>Double points if house colors represented</strong> (throughout the month)</li>
+					<li class="pictureList">Visit temple grounds(different temple each time)</li>
+				</ul>
+			</div>
+			
+	
+			<div class="col-md-12">
+				<h2>Twenty Points</h2>
+				<ul>
+					<li class="pictureList">Clean your bedroom (one time)</li>
+					<li class="pictureList">Ministering (double if you visit them)</li>
+					<li>Indexing</li>
+					<li>Find a family name to take to the temple</li>
+					<li class="pictureList">Watch a harry potter movie</li>
+
+				</ul>
+			</div>
+			
+			<div class="col-md-12">
+				<h2>Fifty Points</h2>
+				<ul>
+					<li class="pictureList">Bake your neighbor something yummy <strong>*double if it’s a Harry Potter treat</strong>(one time)</li>
+					<li class="pictureList">Temple work *double for going to a temple outside of Provo</li>
+					<li class="pictureList">Shovel your neighbor’s driveway</li>
+					<li class="pictureList">Prepare and cook dinner for your family/friends</li>
+					<li>Read a Harry Potter Book</li>
+					<li class="pictureList">Host or attend a ward game/movie night</li>
+					<li class="pictureList">Going on a date (once a week)</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-12">
+				<h2>One Hundred Points</h2>
+				<ul>
+					<li>Quidditch (winning team)</li>
+					<li>Social Media Fast for a week (one time)</li>
+					<li class="pictureList">Feed the Missionaries</li>
+					<li class="pictureList">Ward temple activity (+20 points for getting food with the ward)</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-12">
+				<h2>One Hundred and Fifty Points</h2>
+				<ul>
+					<li class="pictureList">Donate blood for the <strong>Stake Blood Drive</strong></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-12">
+				<h2>Two Hundred Points</h2>
+				<ul>
+					<li>Complete the <a href="scavenger.php" style="color: white"><strong>Scavenger hunt</strong></a></li>
+				</ul>
+			</div>
+		
+		</div>
+		
+	    <div class="container">
+	     
+	
+	      <hr>
+	
+	      <footer>
+	        <p>&copy; Orem YSA 7th</p>
+	      </footer>
+	    </div> <!-- /container -->
+	    
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+		<script src='js/vendor/bootstrap-3.1.1.min.js'></script>
+		<script src='js/main.js'></script>
+    </body>
+</html>

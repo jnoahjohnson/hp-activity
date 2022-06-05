@@ -1,0 +1,437 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.centerText {
+	text-align: center;
+}
+
+.navbar {
+	
+	background:  !important;
+	border-bottom: none !important;
+}
+
+
+
+/*Progress Bars*/
+
+.hourglass {
+	margin-top: 180px;
+	
+	
+}
+
+.topHourglass {
+	height: 150px;
+	width: 80%;
+	position: absolute;
+	background: linear-gradient(to right,#f7f7f7, #A2B9C4,#A5C4D4,#A5C4D4 ,#A2B9C4,#f7f7f7) !important;
+	border-radius: 10% 10% 40% 40%;
+	opacity: .7;
+	top: -33%;
+	left: 9.5%;
+	
+	border-style: solid;
+	border-top-width: 10px;
+	
+	border-top-color: #d4d40b;
+	border-bottom: none;
+
+	
+}
+
+
+.progress {
+	
+	transform: rotate(-180deg);
+	height: 400px !important;
+	border-radius: 10% 10% 30% 30% !important;
+	opacity: .7;
+	background: linear-gradient(to right,#f7f7f7, #A2B9C4,#A5C4D4,#A5C4D4 ,#A2B9C4,#f7f7f7) !important;
+	padding-top: 0px !important;
+	margin-bottom: 0px !important;
+	
+	border-style: solid;
+	border-bottom: none;
+	
+
+}
+
+.middleHourglass {
+	height: 20px;
+	border-radius: 100%;
+	opacity: .9;
+	background: linear-gradient(to right,#f7f7f7, #A2B9C4,#A5C4D4,#A5C4D4 ,#A2B9C4,#f7f7f7) !important;
+	width: 28%;
+	
+	position: absolute;
+	left:36.5%;
+	top: -3%;
+	
+	z-index: 1;
+	
+	border-style: solid;
+	border-left-size: 15px;
+	border-left-color: white;
+	border-right-size: 15px;
+	border-right-color: white;
+	
+	border-top: none;
+	border-bottom: none;
+
+	
+}
+
+.ravenTopHourglass {
+	background-image: url("../images/ravenBackground.png") !important;
+	background-position: center bottom !important;
+	
+}
+
+.gryfTopHourglass {
+	background-image: url("../images/gryfBackground.png") !important;
+	background-position: center bottom !important;
+}
+
+.huffTopHourglass {
+	background-image: url("../images/huffBackground.png") !important;
+	background-position: center bottom !important;
+}
+
+.slyTopHourglass {
+	background-image: url("../images/slyBackground.png") !important;
+	background-position: center bottom !important;
+}
+
+
+
+#gryfProgressBar {
+	background-image: url("../images/gryfBackground.png") !important;
+	background-position: center top !important;
+	width: 100%; 
+	opacity: 1 !important;
+	transform: rotate(-180deg);
+	background-color: transparent !important;
+}
+
+#huffProgressBar {
+	background-image: url("../images/huffBackground.png") !important;
+	background-position: center top !important;
+	width: 100%; 
+	opacity: 1 !important;
+	transform: rotate(-180deg);
+	background-color: transparent !important;
+}
+
+#ravenProgressBar {
+	background-image: url("../images/ravenBackground.png") !important;
+	background-position: center top !important;
+	width: 100%; 
+	opacity: 1 !important;
+	transform: rotate(-180deg);
+	background-color: transparent !important;
+}
+
+#slyProgressBar {
+	background-image: url("../images/slyBackground.png") !important;
+	background-position: center top !important;
+	width: 100%;
+	opacity: 1 !important;
+	transform: rotate(-180deg);
+	background-color: transparent !important;
+}
+
+
+.hogwartsHead {
+	margin-top: 0px;;
+	padding-bottom: 0px;;
+	font-family: 'Dancing Script', cursive;
+	font-size: 10vw;
+	max-width: 40%;
+
+}
+
+@media(max-width: 500px){
+	.hogwartsHead {
+		max-width: 90%;
+	}
+}
+
+
+
+.jumbotron {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/hogwarts-hall.png");
+	background-color: #cccccc;
+	height: auto !important; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	color: white !important;
+	opacity: 1;
+	font-family: 'Cinzel', serif;
+}
+
+.crestImage {
+	height: 30%;
+	
+	position: absolute;
+	top: 0;
+	bottom: -5%;
+	right: 0;
+	left: -1%;
+	
+	margin: auto;
+	
+	
+	background-color: transparent;
+	z-index: 1;
+	
+	transform: rotate(-180deg);
+	
+}
+
+
+.placeNumbers {
+	position: absolute;
+	top: -44%;
+	left: 37.5%;
+	font-family: 'Cinzel', serif;
+	font-weight: 900;
+}
+
+.nav {
+	text-align: center !important;
+}
+
+.pointsList {
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.pointsBox {
+	width: 80%;
+	height: 30px;
+	border-style: none;
+
+	background: #d7b96d;
+	color: white;
+	
+	transform: rotate(-180deg);
+	
+	position: absolute;
+	top: 0;
+	bottom: 40%;
+	right: 0;
+	left: -1%;
+	
+	
+	margin: auto;
+	
+	text-align: center;
+	font-size: 17px;
+	
+}
+
+.tab { 
+	margin-left: 35px !important; 
+}
+
+.navbar {
+	font-size: 18px !important;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent !important;
+    color: grey !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.usernav>li>a {
+	color: white !important;
+	font-family: 'Cinzel', serif;
+}
+
+.usernav>li>a:hover {
+	color: grey;
+	background-color: transparent;
+}
+
+.usernav>li>a:active {
+	color: grey;
+	background-color: transparent;
+}
+
+.navbar:hover .navbar-collapse:hover {
+	background-color: transparent !important;
+}
+
+.navbar:hover .navbar-collapse:hover {
+	color: grey;
+	background-color: transparent !important;
+}
+
+
+
+h3, h1, h2 {
+	font-family: 'Cinzel' , serif !important;
+	font-weight: 900 !important;
+}
+
+body {
+	font-family: 'Cinzel' , serif !important;
+	background-image: url("../images/maraudersBackground.png");
+	color: white !important;
+	padding-bottom: 0 !important;
+}
+
+input {
+	color: black !important;
+}
+
+.formText {
+	font-size: 18px;
+}
+
+.uploadPhotosNewStyle {
+	display: inline-block !important; 
+	padding-bottom: 20px !important; 
+	text-align: center !important; 
+	align-content: center !important; 
+	margin-left: 10% !important;
+}
+
+.uploadPhotosButton {
+	padding: 10px;
+	border-style: solid;
+	border: 3px;
+	margin-bottom: 10px;
+}
+
+.infoText {
+	margin-bottom: 20px;
+}
+
+.submitForm {
+	margin-bottom: 0;
+	background-image: url("../images/HogwartsCastle.jpg");
+	height: 100% !important; /* You must set a specified height */
+	width: 100% !important;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+
+}
+
+.ideasBox {
+	padding-bottom: 40px;
+}
+
+.pictureList {
+  position: relative;
+  padding-left: 0px;
+  list-style-type: none;
+  padding-left: 20px;
+  left: -20px;
+}
+
+.pictureList:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Font Awesome\ 5 Free' !important;
+  font-weight: 900;
+  content: "\f030" !important;
+  padding-right: 20px;
+  color: white;
+}
+
+a {
+	color: white;
+}
+
+.footer-container {
+	background-color: black;
+	width: 100% !important;
+	height: 100% !important;
+	padding-bottom: 20px;
+	background-image: url("../images/symbol-background.png") !important;
+}
+
+#slyCrest {
+	bottom: -30%;
+}
+
+.crestHouse {
+	width: 80%;
+	display: inline-block;
+	height: 200px;
+	margin-bottom: 10px !important;
+	
+}
+
+.houseColumn {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.houseParticipantNames {
+	font-size: 16px;
+}
+
+.uploadPhotosButton {
+	background: white !important;
+	margin-style: solid;
+	margin: 10px !important;
+	padding: 5px !important;
+	color: black !important;
+}
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.box.has-advanced-upload {
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+.box.has-advanced-upload .box__dragndrop {
+  display: inline;
+}
+
+.submitButton {
+	width: 35% !important;
+	height: 50px !important;
+	font-size: 18px !important;
+}
+
+.welcomeList {
+	list-style: none;
+	font-size: 18px;
+}
+
+.welcomeMessage {
+	width: 100%;
+	height: auto;
+	background-color: rgba(51, 50, 54, .8);
+}
+
